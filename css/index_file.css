@@ -1,0 +1,77 @@
+
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            background: linear-gradient(90deg, #4CAF50, #81C784);
+        }
+        .navbar-brand img {
+            height: 50px;
+        }
+        .nav-link {
+            color: white !important;
+            font-weight: bold;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+        .nav-link:hover {
+            color: #FFEB3B !important;
+        }
+        .carousel-item img {
+            height: 500px;
+            object-fit: cover;
+        }
+        .card {
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+        .contact-section {
+            background: #4CAF50;
+            color: white;
+            padding: 40px 20px;
+            border-radius: 10px;
+        }
+        footer {
+            background: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        .review-card {
+          background: #f8f9fa;
+          border: 1px solid #ddd;
+          border-radius: 8px;
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+          transition: transform 0.3s, box-shadow 0.3s;
+      }
+      
+      .review-card:hover {
+          transform: scale(1.05);
+          box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+      }
+      
+      .review-card .card-body {
+          padding: 20px;
+      }
+      
+      .review-card .rating {
+          font-size: 20px;
+          color: #ffcc00;
+      }
+      
+      /* Adjust carousel controls */
+      .carousel-control-prev, .carousel-control-next {
+          filter: invert(100%);
+      }
+      
+  
